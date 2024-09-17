@@ -12,7 +12,8 @@ import java.io.PrintWriter;
  * Some experiments with our store classes.
  *
  * @author Samuel A. Rebelsky
- * @author Your Name Here
+ * @author A.J. Trimble
+ * @author David Stroud
  */
 public class Store {
   /**
@@ -27,6 +28,9 @@ public class Store {
         new Purchase[] {
           new Item("hammer", "hits things", 899),
           new Item("penny candy", "imaginary", 1),
+          new Item("Horse", "Animal", 7000),
+          new BulkItem("saffron", "yellow", "gram", 1111, 2),
+          new Multiple("Nail", "Drive into skulls", 2, 63)
         });
     pen.close();
   } // main(String[])
